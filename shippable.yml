@@ -37,4 +37,6 @@ after_script:
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
   
 notifications:
-  email: shiphitchcock1@gmail.com
+  email: 
+    recipients:
+      - shiphitchcock1@gmail.com
