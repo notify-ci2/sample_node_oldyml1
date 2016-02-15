@@ -29,7 +29,7 @@ before_script:
 
 # Running the tests with grunt
 script:
-  - grunt
+  - grunt ggd
 
 # Tell istanbul to generate a coverage report
 after_script:
@@ -41,4 +41,4 @@ notifications:
     recipients:
       - shiphitchcock1@gmail.com
     on_success: change
-    on_failure: always
+    on_failure: change
