@@ -6,7 +6,7 @@ build_image: drydock/u12nod:prod
 # Version number
 node_js:
   - 0.12
-  - 0.10.25
+ # - 0.10.25
 
 # The path for Xunit to output test reports
 env:
@@ -29,7 +29,7 @@ before_script:
 
 # Running the tests with grunt
 script:
-  - grunt ghf
+  - grunt
 
 # Tell istanbul to generate a coverage report
 after_script:
@@ -40,3 +40,4 @@ notifications:
   email: 
     recipients:
       - shiphitchcock1@gmail.com
+    on_success: change
