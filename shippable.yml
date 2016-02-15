@@ -40,5 +40,5 @@ notifications:
   email: 
     recipients:
       - shiphitchcock1@gmail.com
-    on_success: always
-    on_failure: never
+    on_success: never
+    on_failure: always
