@@ -40,4 +40,3 @@ notifications:
   irc:
    channels:
      - "chat.freenode.net#test-irc"
-     
