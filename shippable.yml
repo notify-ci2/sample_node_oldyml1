@@ -38,7 +38,7 @@ after_script:
   
 notifications:  
   irc: 
-    recipients:
-      - "chat.freenode.net#test-irc" 
     pull_request: true
-    
+    channels:
+      - "chat.freenode.net#test-irc" 
+      
