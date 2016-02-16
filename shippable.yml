@@ -41,4 +41,3 @@ notifications:
     pull_request: true
     channels:
       - "chat.freenode.net#test-irc" 
-      
