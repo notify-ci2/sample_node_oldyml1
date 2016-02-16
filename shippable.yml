@@ -29,7 +29,7 @@ before_script:
 
 # Running the tests with grunt
 script:
-  - grunt
+  - grunt jk
 
 # Tell istanbul to generate a coverage report
 after_script:
@@ -38,7 +38,7 @@ after_script:
   
 notifications:  
   irc: 
-    pull_request: true
+    pull_requests: true
     channels:
       - "chat.freenode.net#test-irc"
       
