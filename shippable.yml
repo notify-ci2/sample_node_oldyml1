@@ -37,4 +37,8 @@ after_script:
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
   
 notifications:  
-  irc: "chat.freenode.net#test-irc" 
+  irc: 
+    recipients:
+      - "chat.freenode.net#test-irc" 
+    pull_request: true
+    
