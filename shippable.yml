@@ -29,7 +29,7 @@ before_script:
 
 # Running the tests with grunt
 script:
-  - grunt kgr
+  - grunt
 
 # Tell istanbul to generate a coverage report
 after_script:
@@ -37,7 +37,7 @@ after_script:
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
   
 notifications:  
-  irc: "chat.freenode.net#test-irc"
-   # pull_request: true
-    #channels:
-   #   - 
+  irc: 
+    pull_request: true
+    channels:
+      - "chat.freenode.net#test-irc"
